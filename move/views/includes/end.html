@@ -1,0 +1,6 @@
+<script src="/public/javascripts/common.js"></script>
+{% if javascripts %}
+{% for javascript in javascripts %}
+<script src="/javascripts/{{ javascript }}.js"></script>
+{% endfor %}
+{% endif %}

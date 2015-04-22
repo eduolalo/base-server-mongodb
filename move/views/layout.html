@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include './includes/head.html' %}
+<body>
+    <div id="wrapper">
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+        {% include './includes/end.html' %}
+    </div>
+</body>
+</html>
