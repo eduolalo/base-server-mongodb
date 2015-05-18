@@ -1,7 +1,7 @@
-debito-backend
+Node and mongo web service example
 =======
 
-**API for debito.com**
+Configure your data in ***/cfg*** for mongo credentials
 
 Steps
 -----
